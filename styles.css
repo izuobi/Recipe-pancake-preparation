@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: #191312;
+}
+
+.main_container {
+  width: 40%;
+  margin: 20px auto;
+  background-color: #fff3db;
+  font-family: sans-serif, serif;
+  border: 10px solid transparent;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.timing {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timing>li {
+  padding-top: 10px;
+}
+
+h1:nth-of-type(1) {
+  border: 1px solid red;
+  background-color: red;
+  color: #ffff;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: red;
+  font-weight: 800;
+  font-size: 1.4em;
+  /* font-size: larger; */
+}
+
+.note {
+  color: red;
+}
+
+#bold {
+  font-weight: 600;
+}
+
+#process {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.added-recipe {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 186, 100);
+  border: 1px solid transparent;
+
+}
